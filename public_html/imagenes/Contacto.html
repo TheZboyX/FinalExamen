@@ -6,20 +6,21 @@ and open the template in the editor.
 -->
 <html>
     <head>
+	<link href="formularios.css" rel="stylesheet" type="text/css"/>
 	<title>Alsaro</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    <center> <div>
-	    <form id="for" action="procesarRegistro.php" method="POST">
+     <div id="for">
+	    <form action="procesarRegistro.php" method="POST">
 <fieldset>
 <legend>Datos de nuevo cliente</legend>
 
 <p><label>Nombre:</label> <input type="text" name="username" maxlength="30"/></p>
 
 
-<p><label>Email:</label> <input type="email" name="email" maxlength="30"/></p>
+<p><label >Email:</label> <input type="email" name="email" maxlength="30"/></p>
 <p><label>Tel&eacute;fono:</label> <input type="text" name="telefono"
 maxlength="15"/></p>
 <p><label>Contrase&ntilde;a:</label> <input type="password" name="password"
@@ -46,6 +47,5 @@ maxlength="40"/></p>
 <input type="submit" value="Enviar este formulario" />
 </form>
 
-	</div> </center>
-    </body>
+	</div> 
 </html>

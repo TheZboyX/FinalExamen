@@ -9,8 +9,13 @@ and open the template in the editor.
 */
 
 #for{
-    align-content: center;
-    width: 800px;
-    height: 800px;
-    margin: 1em;
+    margin-left: 25em;
+    margin-right: 25em;
+    border-radius: 2px;
+    
+    
+}
+#formulario{
+    margin-top: 2em;
+    
 }
