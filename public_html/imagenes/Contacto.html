@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<title>Alsaro</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center> <div>
+	    <form id="for" action="procesarRegistro.php" method="POST">
+<fieldset>
+<legend>Datos de nuevo cliente</legend>
+
+<p><label>Nombre:</label> <input type="text" name="username" maxlength="30"/></p>
+
+
+<p><label>Email:</label> <input type="email" name="email" maxlength="30"/></p>
+<p><label>Tel&eacute;fono:</label> <input type="text" name="telefono"
+maxlength="15"/></p>
+<p><label>Contrase&ntilde;a:</label> <input type="password" name="password"
+maxlength="40"/></p>
+<button type="submit">Registrarse</button>
+</fieldset>
+</form>
+	    <form id="formulario" method="post" action="">
+ 
+<label for="programa">Que necesitas?</label> <br/>
+<select id="programa" name="programa">
+  <optgroup label="-Seleccione-">
+    <option value="Windows" selected="selected">Comprar</option>
+    <option value="Mac">Informacion</option>
+    <option value="Linux">Garantia</option>
+    <option value="Other">Otro</option>
+  </optgroup>
+  
+  
+  
+</select>
+ <textarea name="textarea" rows="10" cols="50"></textarea>
+ <form method="get" action="http://aprenderaprogramar.com/accion.php">
+<input type="submit" value="Enviar este formulario" />
+</form>
+
+	</div> </center>
+    </body>
+</html>
